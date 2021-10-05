@@ -1,0 +1,38 @@
+body
+{
+    background-image: url("背景1.jpg");
+    background-size: cover;
+}
+p
+{
+    color: white;
+    align-self:center;
+    text-align:center;
+    font-family:"fantasy";
+    font-size:60px;
+}
+
+.small img{
+    width: 240px;
+    height: 144px;
+    object-fit:cover;
+    align-self:center;
+    position:relative;
+    margin:0 auto;
+}
+.preview img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit:cover;
+    align-self:center;
+    position:relative;
+    margin:auto;
+    display:block;
+    margin-bottom:50px;
+}
+
+img:hover{
+    border-radius: 20px;
+    transform:scale(1.05);
+}
