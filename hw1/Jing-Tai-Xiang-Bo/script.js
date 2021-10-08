@@ -71,3 +71,13 @@ function copyPic23(){
 function copyPic24(){
   document.getElementById("0").src = "https://430df76f-24a6-46cc-9167-2d989f8141dd.id.repl.co/images/24.jpg";
 }
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
