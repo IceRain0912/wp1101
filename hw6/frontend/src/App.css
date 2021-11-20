@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.start{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -25px 0 0 -25px;
+}
+.game{
+  position: absolute;
+  left: 44%;
+  top: 44%;
+  margin: -40px 0 0 -40px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
